@@ -1,8 +1,8 @@
-package task8;
+package Homework8;
 
 import java.util.Arrays;
 
-public class Job_2 {
+public class Task_2 {
     public static boolean isRussianAnagram(String s, String t) {
         // Приводим к нижнему регистру и удаляем все не-буквы
         s = s.toLowerCase().replaceAll("[^а-яё]", "");

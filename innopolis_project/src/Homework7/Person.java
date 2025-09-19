@@ -1,4 +1,4 @@
-package task6;
+package Homework7;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.Objects;
 class Person {
     private String name;
     private int money;
-    private List<Product> products;
+    private List<BaseProduct> products;
 
     public Person(String name, int money) {
         setName(name);
@@ -40,15 +40,15 @@ class Person {
         this.money = money;
     }
 
-    public List<Product> getProducts() {
+    public List<BaseProduct> getProducts() {
         return products;
     }
 
-    public boolean canAfford(Product product) {
+    public boolean canAfford(BaseProduct product) {
         return money >= product.getPrice();
     }
 
-    public void buyProduct(Product product) {
+    public void buyProduct(BaseProduct product) {
         if (canAfford(product)) {
             products.add(product);
             money -= product.getPrice();

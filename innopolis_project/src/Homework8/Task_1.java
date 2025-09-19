@@ -1,10 +1,10 @@
-package task8;
+package Homework8;
 import java.util.ArrayList;
 import java.util.Set;
 
 import java.util.HashSet;
 
-public class Job_1 {
+public class Task_1 {
 
     public static <T> Set<T> getUniqueElements(ArrayList<T> list) {
         if (list == null) {

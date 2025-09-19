@@ -1,4 +1,4 @@
-package task7;
+package Homework7;
 
 class Product extends BaseProduct {
     public Product(String name, int price) {

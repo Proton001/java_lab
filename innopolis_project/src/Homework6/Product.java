@@ -1,4 +1,4 @@
-package task6;
+package Homework6;
 
 import java.util.Objects;
 
